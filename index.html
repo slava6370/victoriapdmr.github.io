@@ -1,137 +1,478 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>�������</title>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta content="" name="keywords">
-  <meta content="" name="description">
+<html>
+	<head>
+    <title>Поляков М.А.|ИДБ-15-13</title>
+    <meta charset="utf-8" />
+  
+<meta name="color:Background" content="#FFFFFF">
+    <meta name="color:Body Text" content="#000000">
+    <meta name="color:Links" content="#333333">
+    <meta name="color:Title" content="#333333">
+    <meta name="color:Meta" content="#CCCCCC">
+    <meta name="color:Dividers" content="#F2F2F2">
+    <meta name="image:Logo" content="">
+    <meta name="select:Page Width" content="500px" title="Standard">
+    <meta name="select:Page Width" content="700px" title="Wide">
 
-  <!-- Favicons -->
-  <link href="img/favicon.png" rel="icon">
-  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+    <style type="text/css">
+      html {
+        background-color: #FFFFFF;
+            -webkit-font-smoothing: antialiased;
+      }
+      body {
+        color: #000000;
+        font-family: 'Helvetica Neue', "Arial", sans-serif;
+        font-size: 12px;
+        line-height:1.8em;
+      }
+      h1, h2, h3, h4, h5 {
+        font-family: 'Montserrat', 'Helvetica Neue', "Arial", sans-serif;
+        font-weight: 400;
+      }
+      h1 {
+        font-size: 48px;
+        line-height: 48px;
+      }
+      h2 {
+        font-size: 32px;
+        line-height: 38px;
+      }
+      h3 {
+        font-size: 22px;
+        line-height: 28px;
+      }
+      a:link, a:visited {
+        color: #333333;
+        text-decoration: none;
+      }
+      a:hover, a:active {
+        text-decoration: underline;
+      }
+      hr {
+        border:0 #aaa solid;
+        border-top-width:1px;
+        clear:both;
+        height:0;
+      }
+      ol {
+        list-style:decimal;
+      }
+      ul {
+        list-style:disc;
+        margin-left:0px;
+      }
+      li {
+        margin-left:0px;
+      }
+      p, dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset {
+        margin: 0 0 15px 0;
+      }
+      .wrapper {
+        max-width: 500px;
+        max-width:700px!important;
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+      .header {
+        margin:0 auto;
+      }
+      .logotitle {
+        margin: 50px 0;
+      }
+      .logo {
+        text-align: center;
+      }
+      .title {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 24px;
+        font-weight: 100;
+        letter-spacing: 5px;
+        font-family: 'Montserrat', 'Helvetica Neue', "Arial", sans-serif;
+      }
+      .title a {
+        color: #333333;
+      }
+      .description {
+        text-align: center;
+        padding: 20px 0 20px 0;
+        border-top: 2px solid #F2F2F2;
+      }
+      .nav {
+        display:block;
+        list-style: none;
+        padding: 20px 0;
+        margin: 0;
+        text-align: center;
+        font-size: 11px;
+        text-transform: uppercase;
+        font-weight: 700;
+        border-top: 2px solid #F2F2F2;
+        border-bottom: 2px solid #F2F2F2;
+        font-family: 'Montserrat', 'Helvetica Neue', "Arial", sans-serif;
+      }
+      .nav li {
+        margin: 10px;
+        display: inline;
+      }
+      .posts {
+        padding-top: 60px;
+      }
+      iframe {
+        max-width: 100%;
+      }
+      .tumblr_video_container {
+        width: 100% !important;
+        height: 100% !important;
+      }
+      .header-posts {
+        padding: 0;
+      }
+      .meta {
+        display: block;
+        height:14px;
+        line-height:1em;
+        font-family: 'Montserrat', 'Helvetica Neue', "Arial", sans-serif;
+        padding-bottom:60px;
+        margin-top: 10px;
+        font-size:11px;
+        color: #CCCCCC;
+        text-transform: uppercase;
+        border-bottom: 2px solid #F2F2F2;
+      }
+      .meta a {
+        color: #CCCCCC;
+      }
+      .date {
+        margin-right: 20px;
+      }
+      .quote {
+        font-size: 30px;
+        font-family: 'Merriweather', serif;
+        letter-spacing: -1px;
+        line-height: 1.2em;
+        padding-bottom: 10px;
+      }
+      blockquote {
+        margin-left: 20px;
+        padding-left: 15px;
+        border-left: 3px #999999 solid;
+      }
+      .chat {
+        list-style: none;
+        padding: 0;
+      }
+      .tags {
+        display: block;
+        list-style: none;
+        padding: 0;
+        margin: 10px 0 0 0;
+      }
+      .tags a {
+        color: #CCCCCC;
+      }
+      .tags ul {
+        list-style-type: none;
+        display:inline;
+        margin: 0;
+        padding: 0;
+      }
+      .tags li {
+        margin: 0;
+        padding-right: 10px;
+        display:inline;
+      }
+      .footer {
+        text-align: center;
+        padding-bottom: 25px;
+        padding-top: 40px;
+      }
+      .notes {
+        border-bottom: 2px solid #F2F2F2;
+        list-style: none;
+        padding: 20px 0 50px 0;
+        margin: 30px 0 0 0;
+        line-height: 2.2em;
+      }
+      .notes li {
+        margin: 0;
+      }
+      .notes .avatar {
+        margin: 0 5px 0 0;
+        position: relative;
+        top: 5px;
+      }
+      .notes blockquote {
+        margin: 10px 0 0 35px;
+        padding-left: 10px;
+        border-left: 2px solid #999999;
+      }
+      .media {
+        margin-bottom: 20px;
+      }
+      .posts img {
+        width: 100%;
+      }
+      
+      #infscr-loading, .pagination {
+        display: none !important;
+      }
+      
+     .pagination {
+        text-align: center;
+        font-weight:700;
+        border-bottom: 2px solid #F2F2F2;
+      }
+      .pagination ul {
+        list-style: none;
+        padding: 10px 15px;
+        margin: 10px 0;
+      }
+      .pagination li {
+        margin: 0 2px 0 2px;
+        display: inline;
+      }
+      #pagination a:link, #pageNav a:visited {
+        padding: 0;
+        margin: 0 2px;
+        text-decoration: none;
+      }
+      #pagination a:hover, #pageNav a:active, #pageNav a.active:link, #pageNav a.active:visited {
+        text-decoration: underline;
+      }
+      #older:after {
+        content: " Â»";
+      }
+      #newer:before {
+        content: "Â« ";
+      }
+      .datenotes {
+        float: left;
+      }
+      .like-button {
+        display: inline-block;
+        float: right;
+        padding: 3px 0 0 10px;
+      }
+      .reblog-button {
+        display: inline-block;
+        float: right;
+        padding: 3px 0 0 0;
+      }
+      #install-btn {
+        position:fixed;
+        bottom: 0px;
+        right:6px
+      }
+      .animated {
+        -webkit-animation-fill-mode: both;
+        -moz-animation-fill-mode: both;
+        -ms-animation-fill-mode: both;
+        -o-animation-fill-mode: both;
+        animation-fill-mode: both;
+        -webkit-animation-duration: 1s;
+        -moz-animation-duration: 1s;
+        -ms-animation-duration: 1s;
+        -o-animation-duration: 1s;
+        animation-duration: 1s;
+      }
+      .animated.hinge {
+        -webkit-animation-duration: 1s;
+        -moz-animation-duration: 1s;
+        -ms-animation-duration: 1s;
+        -o-animation-duration: 1s;
+        animation-duration: 1s;
+      }
+      @-webkit-keyframes fadeInDown {
+        0% {
+          opacity: 0;
+          -webkit-transform: translateY(-20px);
+        }
+        100% {
+          opacity: 1;
+          -webkit-transform: translateY(0);
+        }
+      }
+      @-moz-keyframes fadeInDown {
+        0% {
+          opacity: 0;
+          -moz-transform: translateY(-20px);
+        }
+        100% {
+          opacity: 1;
+          -moz-transform: translateY(0);
+        }
+      }
+      @-o-keyframes fadeInDown {
+        0% {
+          opacity: 0;
+          -o-transform: translateY(-20px);
+        }
+        100% {
+          opacity: 1;
+          -o-transform: translateY(0);
+        }
+      }
+      @keyframes fadeInDown {
+        0% {
+          opacity: 0;
+          transform: translateY(-20px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      .fadeInDown {
+        -webkit-animation-name: fadeInDown;
+        -moz-animation-name: fadeInDown;
+        -o-animation-name: fadeInDown;
+        animation-name: fadeInDown;
+      }
+    </style>
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
-
-  <!-- Bootstrap CSS File -->
-  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Libraries CSS Files -->
-  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-
-  <!-- Main Stylesheet File -->
-  <link href="css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-    Template Name: Instant
-    Template URL: https://templatemag.com/instant-bootstrap-personal-template/
-    Author: TemplateMag.com
-    License: https://templatemag.com/license/
-  ======================================================= -->
 </head>
-
+	
 <body>
-
-  <!-- Static navbar -->
-  <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        <a class="navbar-brand" href="index.html">INSTANT</a>
-      </div>
-      <div class="navbar-collapse collapse">
-        <ul class="nav navbar-nav navbar-right">
-          <li class="active"><a href="index.html">�������</a></li>
-          <li><a href="about.html">��� ���</a></li>
+		
+    <div class="wrapper">
+      <div class="header">
+        <div class="logotitle animated fadeInDown">
+          <div class="title">
+            <a href="https://github.com/stankin/design-2019/wiki/%D0%98%D0%94%D0%91_15_13">ИДБ-15-13 Поляков М.А.</a>
+          </div>
+        </div>
+        <ul class="nav">
+		<li><a href="#лабораторная-работа-1" id="lr1-link"><span class="icon fa-th">ЛР1</span></a></li>
+		<li><a href="#лабораторная-работа-2" id="lr2-link"><span class="icon fa-th">ЛР2</span></a></li>
+		<li><a href="#лабораторная-работа-3" id="lr3-link"><span class="icon fa-th">ЛР3</span></a></li>
+		<li><a href="#лабораторная-работа-4" id="lr4-link"><span class="icon fa-th">ЛР4</span></a></li>
+		<li><a href="#лабораторная-работа-5" id="lr5-link"><span class="icon fa-th">ЛР5</span></a></li>
+		<li><a href="#лабораторная-работа-6" id="lr6-link"><span class="icon fa-th">ЛР6</span></a></li>
+		<li><a href="#лабораторная-работа-7" id="lr7-link"><span class="icon fa-th">ЛР7</span></a></li>
         </ul>
-      </div>
-      <!--/.nav-collapse -->
-    </div>
-  </div>
+	</div>
+	    	
+	
+	<section id="lr1">
+		<h1>Лабораторная работа 1</h1>
 
+<h3>1. Идентификатор прецедента</h3>
 
-  <div id="headerwrap">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 col-lg-offset-3">
-          <h4>������� 4 ����� ������ ���-15-12 ������ �.�.</h4>
-          <h3>����� �� ������������ ������� �� ���������� �������������� �������������� ������</h3>
-        </div>
-      </div>
-    </div>
-    <!-- /container -->
-  </div>
+<p>Социальный веб-сервис</p>
 
-  <section id="������������ ������"></section>
-  <div class="container">
-    <div class="row centered mt mb">
-      <h1>������������ ������</h1>
+<h3>2. Название прецедента</h3>
 
-      <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-        <a href="lab1.html"><img src="img/portfolio/1.png" class="img-responsive"></a>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-        <a href="lab2.html"><img src="img/portfolio/2.png" class="img-responsive"></a>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-        <a href="lab3.html"><img src="img/portfolio/3.png" class="img-responsive"></a>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-        <a href="lab4.html"><img src="img/portfolio/4.png" class="img-responsive"></a>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-        <a href="lab5.html"><img src="img/portfolio/5.png" class="img-responsive"></a>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-        <a href="lab6.html"><img src="img/portfolio/6.png" class="img-responsive"></a>
-	  </div>
-	  <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-        <a href="lab7.html"><img src="img/portfolio/7.png" class="img-responsive"></a>
-      </div>
-    </div>
-  </div>
+<p>Обмен авторским контентом при поддержке рекламного алгоритма монетизации</p>
 
-  <div id="social">
-    <div class="container">
-      <div class="row centered">
-        <div class="col-lg-2">
-          <a href="https://github.com/egoistos/egoistos.github.io"><i class="fa fa-github"></i></a>
-        </div>
-      </div>
-    </div>
-  </div>
+<h3>3. Контекст</h3>
 
-  <div id="copyrights">
-    <div class="container">
-      <p>
-        &copy; Copyrights <strong>Instant</strong>. All Rights Reserved
-      </p>
-      <div class="credits">
-        <!--
-          You are NOT allowed to delete the credit link to TemplateMag with free version.
-          You can delete the credit link only if you bought the pro version.
-          Buy the pro version with working PHP/AJAX contact form: https://templatemag.com/instant-bootstrap-personal-template/
-          Licensing information: https://templatemag.com/license/
-        -->
-        Created with Instant template by <a href="https://templatemag.com/">TemplateMag</a>
-      </div>
-    </div>
-  </div>
-  <!-- / copyrights -->
+<p>Социальная сеть как метод компьютерно-опосредованной коммуникации</p>
 
-  <!-- JavaScript Libraries -->
-  <script src="lib/jquery/jquery.min.js"></script>
-  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
-  <script src="lib/php-mail-form/validate.js"></script>
+<h3>4. Участники (actors) и цели (goals)</h3>
 
-  <!-- Template Main Javascript File -->
-  <script src="js/main.js"></script>
+<table border="1" cellpadding="1" cellspacing="1" style="width:500px">
+	<thead>
+		<tr>
+			<th scope="col">Участник</th>
+			<th scope="col">Категория</th>
+			<th scope="col">Цель</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Владелец продукта</td>
+			<td>Основной</td>
+			<td>Получить результат работы</td>
+		</tr>
+		<tr>
+			<td>Разработчик</td>
+			<td>Основной</td>
+			<td>Разработать продукт (выполнить задачи)</td>
+		</tr>
+    <tr>
+			<td>Авторы</td>
+			<td>Внешний</td>
+			<td>Распространение контента</td>
+		</tr>
+		<tr>
+			<td>Рекламодатели</td>
+			<td>Внешний</td>
+			<td>Предоставить финансовую поддержку авторов</td>
+		</tr>
+		<tr>
+			<td>Система управления проектами</td>
+			<td>Инструмент</td>
+			<td>Предоставить КИС</td>
+		</tr>
+		<tr>
+			<td>Алгоритм монетизации</td>
+			<td>Инструмент</td>
+			<td>Распределение финансовой поддержки авторов</td>
+		</tr>
+    <tr>
+			<td>Алгоритм персонализации</td>
+			<td>Инструмент</td>
+			<td>Распределение распространяемого контента</td>
+		</tr>
+	</tbody>
+</table>
 
+<h3>5. Предусловия (pre-conditions)</h3>
+
+<ul>
+	<li>Сформированы и подготовлены требования.</li>
+	<li>Спроектированы подсистемы продукта</li>
+	<li>Разработчик имеет необходимый уровень подготовки для работы над проектом</li>
+</ul>
+
+<h3>6. Постусловия (post-conditions)</h3>
+
+<ul>
+	<li>Результат разработки соответствует требованиям</li>
+	<li>Проект готов к апробации и наращиванию аудитории (внешних участников)</li>
+</ul>
+
+<h3>7. Основной поток (main flow)</h3>
+
+<table border="1" cellpadding="1" cellspacing="1" style="width:500px">
+	<thead>
+		<tr>
+			<th scope="col">Участник</th>
+			<th scope="col">Действие</th>
+			<th scope="col">Ожидаемый резульат</th>
+		</tr>
+	</thead>
+	<tbody>
+    <tr>
+			<td>Владелец продукта</td>
+			<td>Формирует требования к продукту</td>
+			<td>Требования сформированы</td>
+		</tr>
+    <tr>
+			<td>Владелец продукта</td>
+			<td>Проектирует принцип работы подсистем</td>
+			<td>Проект готов к этапу разработки</td>
+		</tr>
+		<tr>
+			<td>Команда разработки</td>
+			<td>Выполняет разработку продукта</td>
+			<td>Задачи выполняются</td>
+		</tr>
+	</tbody>
+</table>
+
+<h3>8. Исключения (exceptions)</h3>
+
+<ul>
+	<li>Разработчик не выполнил работу в срок</li>
+	<li>Разработчик оказался неспособным подготовить проект отвечающим сформированным требованиям</li>
+</ul>
+
+<h3>9. Альтернативы (alternates)</h3>
+
+<p>Владелец изменил требования к проекту</p>
+
+	</section>
+	    </div>
 </body>
 </html>
