@@ -205,32 +205,31 @@
   <p>
   <p><img src="3.PNG" alt="" /></p>
   </p>
-<section id="page">
-		<link href="css/untangle.css"/ rel="stylesheet">
-		<header>
-			<h1>Untangle Puzzle Game</h1>
-		</header>
-
-		<div id="layers">
-		  <canvas id="bg" width="768" height="400">
-		    This is an interactive game with circles and lines connecting them.
-		  </canvas>
-		  <canvas id="guide" width="768" height="400"></canvas>
-		  <canvas id="game" width="768" height="400"></canvas>
-		  <canvas id="ui" width="768" height="400"></canvas>
-		</div>
-
-		<p>Puzzle <span id="level">0</span>, Completeness: <span id="progress">0</span>%</p>
-
-		<p class="text-align blue-text my-5 font-weight-bold">Требования к SPA:</br>
-			<br>1. SPA представляет собой игру
-			<br>2. Смысл игры заключается в том, чтобы избавиться от пересекающихся линий фигуры
-			<br>3. Жирная линия означает, что она пересекающаяся
-			<br>4. Тонкая линия является не пересекающейся
-			<br>5. Цвет фона и фигуры не должны сливаться
-			<br>6. Движение линий осуществляется при перетаскивании желтых точек
-		</p>
-	</section>
+<head>
+		          <table>
+              <tr><td style="text-align: center;"><canvas id="canvas_tt5c7cfcad30f64" width="175" height="175"></canvas></td></tr>
+              <tr><td style="text-align: center; font-weight: bold"><a href="//24timezones.com/ru_vremia/moscow_mestnoe_vremia.php" style="text-decoration: none" class="clock24" id="tz24-1551695021-c1166-eyJzaXplIjoiMTc1IiwiYmdjb2xvciI6IjAwOTlGRiIsImxhbmciOiJydSIsInR5cGUiOiJhIiwiY2FudmFzX2lkIjoiY2FudmFzX3R0NWM3Y2ZjYWQzMGY2NCJ9" title="Москва мировое время" target="_blank" rel="nofollow">Текущее время в Москве</a></td></tr>
+          </table>
+<script type="text/javascript" src="//w.24timezones.com/l.js" async></script>
+		</head>
+		
+		
+		
+		<head>
+		<script type="text/javascript">
+  function digitalWatch() {
+    var date = new Date();
+    var hours = date.getHours();
+    var minutes = date.getMinutes();
+    var seconds = date.getSeconds();
+    if (hours < 10) hours = "0" + hours;
+    if (minutes < 10) minutes = "0" + minutes;
+    if (seconds < 10) seconds = "0" + seconds;
+    document.getElementById("digital_watch").innerHTML = hours + ":" + minutes + ":" + seconds;
+    setTimeout("digitalWatch()", 1000);
+  }
+</script>
+	</head>
 </div>
     
 <div id="Lab4" class="tabcontent">
